@@ -3,8 +3,7 @@ package com.stackroute.demo;
 
 import org.springframework.beans.factory.DisposableBean;
 import org.springframework.beans.factory.InitializingBean;
-import org.springframework.context.ApplicationContext;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
+
 
 public class BeanLifeCycleDemoBean implements InitializingBean, DisposableBean {
     public void myMethod() {
